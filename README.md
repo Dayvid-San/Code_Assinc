@@ -7,4 +7,5 @@ Callbacks => Promise => async/await <br>
 Dá para dizer que uma é o aperfeiçoamento da outra.<br>
 
 ## Callbacks
-Função ligada o um metodo assícrono. Quando o metodo assícrono é concluído, a função Callback é chamada 
+Função ligada o um metodo assícrono. Quando o metodo assícrono é concluído, a função Callback é chamada. <br>
+Também é possível adicionar parametros a função callback.
