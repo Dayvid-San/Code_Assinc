@@ -9,3 +9,18 @@ Dá para dizer que uma é o aperfeiçoamento da outra.<br>
 ## Callbacks
 Função ligada o um metodo assícrono. Quando o metodo assícrono é concluído, a função Callback é chamada. <br>
 Também é possível adicionar parametros a função callback.
+
+
+## Promisse
+Duas coisas podem acondecer com uma **Promise** (Promessa), ela pode ser cumprida ou não.<br>
+````js
+email => Resolvida: "Ok" - Reject: "Falha"
+
+save => Resolve: "Dado salvo" - Reject: "Ocorreu um problema. Foi mal!"
+
+````
+
+
+- Tu podes pôr uma promise dentro da outra
+- Você não é obrigado a usar um then
+- Evitar usar Promisses alinhadas **Promisse hell**

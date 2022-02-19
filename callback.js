@@ -1,6 +1,9 @@
 // Simulação de envio de email
 function enviarEmail(corpoEmail, destinatario, callback){
+
     setTimeout(()=>{
+
+        // Corpo da mensagem
         console.log(`
         De: Dayvid Santana
         Para: ${destinatario}
@@ -21,10 +24,14 @@ function enviarEmail(corpoEmail, destinatario, callback){
         }
 
     },5000)
+
 }
 
+
+
 class Destino{
-    constructor(){
+    constructor()
+    {
         this.nome
         this.email
     }
@@ -43,6 +50,7 @@ console.log('Inicio de envio de e-mail')
 enviarEmail(mensagem, destino.email, (erro)=>{
 
     if(erro == undefined){
+        
         newcallback = (status, amount, tempo)=>
         {
             console.log('Seu e-mail foi enviado, Deve chegar em minutos'),
